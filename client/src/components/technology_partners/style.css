@@ -1,0 +1,40 @@
+.tech-card-container {
+  padding: 0 30px !important;
+  margin-bottom: 15rem;
+  margin-top: 3rem;
+}
+
+.tech-area-header {
+  padding-bottom: 1rem;
+  color: #164e85;
+}  
+
+.tech-logo1 {
+    max-height: 60px;
+    width: auto;
+}
+
+.tech-logo2 {
+    max-height: 45px;
+    width: auto;
+}
+
+.tech-logo3 {
+    max-height: 45px;
+    width: auto;
+}
+
+.tech-logo4 {
+    max-height: 45px;
+    width: auto;
+}
+
+.tech-logo5 {
+    max-height: 35px;
+    width: auto;
+}
+
+.tech-logo6 {
+    max-height: 35px;
+    width: auto;
+}

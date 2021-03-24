@@ -1,0 +1,25 @@
+.academic-card-container {
+  padding: 0 30px !important;
+  /* margin-bottom: 15rem; */
+  margin-bottom: 10rem;
+  
+}
+
+.academic-area-header {
+  padding-bottom: 1rem;
+  color: #164e85;
+}  
+
+.academic-card {
+  padding: 30px 30px 10px 30px;
+}
+
+.academic-logo1 {
+    max-height: 70px;
+    width: auto;
+}
+
+/* .academic-logo2 {
+    max-height: 35px;
+    width: auto;
+} */

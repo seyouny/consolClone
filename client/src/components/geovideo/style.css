@@ -1,0 +1,11 @@
+.myVideo {
+    width: 200%;
+    margin: auto;
+}
+
+.myVideo:hover {
+    border: rgb(201, 197, 248);
+    transform: scale(1.07);
+    transition: 2s ease;
+  }
+  

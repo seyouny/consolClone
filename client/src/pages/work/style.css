@@ -1,0 +1,161 @@
+/* .main {
+  display: block;
+  float: none;
+} */
+.proj-btns {
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.work-btns {
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.work-btn1 {
+  margin: 20px !important;
+}
+
+.work-btn2 {
+  margin: 20px !important;
+}
+
+.geo-paragraph-div {
+  margin-top: 2rem !important;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+/* .proj-area-header {
+  color: #164E85;
+} */
+
+.proj-area-header {
+  color: #fff;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.proj-blue-arc-bottom {
+  transform: rotate(180deg);
+}
+
+.makeStyles-divImage-2 {
+  margin-top: 4px;
+}
+
+.offices-header,
+.geo-focus-header {
+  padding-bottom: 2rem;
+  color: #164e85;
+}
+
+.proj-card {
+  min-width: 100%;
+  height: 185px;
+  /* background-color: aquamarine; */
+}
+
+.proj-type {
+  padding: 15px;
+  /* padding-bottom: 10px; */
+}
+
+.proj-type-head {
+  padding: 15px 0px;
+  color: #164e85;
+  
+  
+  /* color: rgb(255, 255, 255);
+  background-color: #164e85; */
+}
+
+.proj-card-container {
+  background-color: #164e85;
+  
+  /* padding: 0 30px !important; */
+  /* margin-bottom: 10rem; */
+  /* margin-top: 3rem; */
+}
+
+.proj-inner-container {
+  padding-bottom: 6rem;
+}
+
+.offices-container {
+  padding-bottom: 6rem;
+}
+
+.proj-area {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+hr {
+  width: 100%;
+  margin: 0 0px 10px 0 !important;
+}
+
+.geo-focus-img {
+  height: 400px;
+  width: 900px;
+  background-image: url("./geo-focus-pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.geo-focus-container {
+  margin-bottom: 10rem;
+}
+
+.offices-container {
+  margin-top: 3rem;
+}
+
+.office-inner {
+  justify-content: center;
+}
+
+.offImgBox1 {
+  background-image: url("./ggbridge.jpg");
+}
+
+.offImgBox2 {
+  background-image: url("https://mggroupchicago.com/wp-content/uploads/2020/08/MG_Group_Chicago_Landmarks-scaled.jpg");
+}
+
+.offImgBox3 {
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/wilmington/Caesar_Rodney_Courtesy_Mike_Biggs_bd12f230-5eeb-4663-872e-47be7e8d2176.jpg");
+}
+
+.w-office,
+.e-office,
+.mw-office {
+  /* max-width: 400px; */
+  text-align: center;
+}
+
+.office-contact-btn:hover {
+  background-image: linear-gradient(to right, #0f365d 0%, #164e85 51%, #44719d 100%);
+  box-shadow: 0 0 11px #44719d; 
+  transition: box-shadow .3s;
+  color: white;
+}
+
+.office-contact-btn {
+  margin-top: .5rem !important;
+}
+
+.office-contact-btn a {
+  text-decoration: none;
+}
+
+.office-location-header {
+  padding-bottom: 0px !important;
+}

@@ -1,0 +1,58 @@
+.submenu {
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+
+.submenu1 {
+  position: sticky;
+  text-align: center;
+  margin: 40px 10%;
+  /* margin: 40px 25% 0 25%; */
+}
+
+/* @media (min-width:960px) {
+  .MuiGrid-grid-md-2 .btn-space {
+    flex-grow: 0;
+    max-width: 0%;
+    flex-basis: 0%;
+  }
+} */
+
+.talent {
+  text-align: center;
+  /* margin-top: 80%; */
+}
+
+.partner-btns {
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+  
+}
+
+/* .button-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.pop-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px !important;
+}
+
+.MuiButton-containedSizeSmall {
+  padding: 2px 2px !important;
+  font-size: 0.7rem !important;
+}
+
+.MuiPopover-paper {
+  max-width: 500px !important;
+}

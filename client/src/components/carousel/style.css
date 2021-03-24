@@ -1,0 +1,81 @@
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) 10% 30% no-repeat;
+    background-color: linear-gradient(rgb(4, 4, 71), black) 10% 30% no-repeat;
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) 10% 30% no-repeat; */
+    /* z-index: 500; */
+}
+
+.right-arrow {
+    position: absolute;
+    top: 45%;
+    right: 100px;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, .3);
+    z-index: 1000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 45%;
+    left: 52px;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, .3);
+    z-index: 1000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 40% 20%;
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    z-index: 1000;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    z-index: 1000;
+}
+
+.indicator p {
+    color: black;
+}
+
+.slide {
+    transition: 2s ease;
+    animation: scale 2s forwards ease;
+    -webkit-animation: scale 2s forwards;
+}
+
+.slide:hover {
+}
+
+@keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+  

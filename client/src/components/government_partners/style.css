@@ -1,0 +1,25 @@
+.gov-card-container {
+  padding: 0 30px !important;
+  /* margin-bottom: 15rem; */
+  margin-top: 3rem;
+}
+
+.gov-area-header {
+  padding-bottom: 1rem;
+  color: #164e85;
+}  
+
+.gov-logo1 {
+    max-height: 110px;
+    width: auto;
+}
+
+.gov-logo2 {
+    max-height: 95px;
+    width: auto;
+}
+
+.gov-logo3 {
+    max-height: 110px;
+    width: auto;
+}

@@ -1,0 +1,33 @@
+.staffCards {
+    width: 100%;
+    margin: auto;
+}
+
+.staffCard {
+    margin: 15px;
+    float: left;
+    height: 600;
+}
+
+.staffModal {
+    top: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 400;
+}
+
+.title {
+    font-size: 1.3em;
+    padding-top: -10em;
+    font-weight: 400;
+}
+
+.titleWrapper {
+    max-width: auto;
+    width: auto;
+    height: 100px;
+    width: 220px;
+}
+

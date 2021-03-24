@@ -1,0 +1,70 @@
+.border {
+    position: absolute;
+    margin-left: 0;
+    bottom: -40px;
+    right: 0;
+    z-index: 20;
+    background: transparent;
+}
+
+.herobrand {
+    position: absolute;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    background: transparent;
+    width: 35%;
+    top: 35%;
+    right: 12%;
+}
+
+.frontButton {
+    position: fixed;
+    margin-right: 30px !important;
+    box-shadow: black;
+    top: -10vh;
+    left: 30%;
+    z-index: 20;
+    background-image: linear-gradient(to right, #dd690c 0%, #e37c0e 51%, #efa313 100%);
+    /* background-color: #f44336; */
+    color: white !important;
+}
+
+.frontButton:hover {
+    transform: scale(1.1) !important;
+    transition: 2s ease;
+    background-image: rgb(11, 11, 107);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .herobrand {
+        position: absolute;
+        transition: 2s ease;
+        width: 65%;
+        top: 20vh;
+        right: 10px;
+        /* margin-top: 45vh; */
+        /* margin-left: 30%; */
+    } 
+
+    .border {
+        position: absolute;
+        bottom: -80px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .herobrand {
+        top: 20vh;
+
+    } 
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}

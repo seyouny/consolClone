@@ -1,0 +1,70 @@
+body{
+  z-index:0;
+}
+h1 {
+  color: white;
+}
+
+.brand {
+  margin-right: 5%;
+  text-align: right;
+}
+
+  .brand img hover {
+    box-shadow: 0 0 0 1px #fefefe;
+  }
+  
+  .sticky-shrinknav-menu a {
+    color: rgb(37, 36, 36);
+  }
+  
+  .sticky-shrinknav-header-title {
+    transition: all 0.3s ease;
+    position: relative;
+    -webkit-transform: translateY(-1.875rem);
+        -ms-transform: translateY(-1.875rem);
+            transform: translateY(-1.875rem);
+    margin-bottom: 0;
+    padding-top: 4rem;
+    color: white;
+  }
+  
+  .sticky-shrinknav-header {
+    width: 100%;
+    height: 400px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./header-photo.jpeg") 10% 30% no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+    position: static;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  
+  body.sticky-shrinknav-wrapper {
+    padding-top: 130px;
+  }
+  
+  body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
+    height: 3.75rem;
+    background-color: rgba(23, 121, 186, 0.9);
+  }
+  
+  body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    transition: all 0.3s ease;
+  }
+    
+  

@@ -1,0 +1,103 @@
+#advisors {
+    height: fit-content;
+    margin-bottom: 0;
+    background-color: #561643;
+    max-width: none;
+}
+
+h1 {
+    color: blue;
+}
+
+#board {
+    margin-top: -6%;
+    margin-bottom: -20%;
+}
+
+.cardImage {
+    max-width: 240;
+}
+
+.bluearc {
+    position: relative;
+    width: 100%;
+    margin-bottom: -10%;
+}
+
+.whitearc {
+    position: relative;
+    background-color: cadetblue;
+    width: 100%;
+    margin-bottom: -10%;
+}
+
+.boardList {
+    column-count: 2;
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+}
+
+.boardList li {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+    page-break-inside: avoid; /* Firefox */
+    break-inside: avoid; /* IE 10+ */
+}
+
+.pageDiv {
+      padding-left: 0;
+      padding-right: 0;
+}
+
+.divImage {
+      width: 100%,
+}
+
+.headshot {
+    border-radius: 50%;
+    width: 100%;
+    height: auto
+}
+
+#founder {
+    position: relative;
+    margin: 40px 10% 0 10%;
+    height: fit-content;
+}
+
+#staffContainer {
+    margin-top: -25px;
+    background-color: #164e85;
+    padding: 3% 15% 3% 15%;
+    /* background-image: linear-gradient(to left, #dd690c 0%, #e37c0e 51%, #efa313 100%); */
+}
+
+.name {
+    padding-bottom: 0em;
+}
+
+.orangeBkg {
+    width: 140%;
+    margin: 0 -20% 0 -20%;
+    height: fit-content;
+    position: relative;
+    background-image: linear-gradient(to left, #dd690c 0%, #e37c0e 51%, #efa313 100%);
+}
+
+.top {
+    position: relative;
+    margin-top: 40px;
+    height: 20%;
+}
+
+.padded-section {
+    padding: 40px;
+}
+
+/* .submenu {
+    text-align: center;
+    margin: 40px auto 0 auto;
+} */
+
+
+
