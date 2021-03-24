@@ -1,7 +1,7 @@
 {
   "name": "consolusa",
   "version": "1.0.0",
-  "homepage": "https://seyouny.github.io/ConSolUSA/",
+  "homepage": "https://seyouny.github.io/consolClone/",
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -12,17 +12,17 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d client/build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seyouny/consolusa.git"
+    "url": "git+https://github.com/seyouny/consolclone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seyouny/consolusa/issues"
+    "url": "https://github.com/seyouny/consolclone/issues"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
