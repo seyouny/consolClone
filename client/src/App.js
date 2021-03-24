@@ -11,7 +11,7 @@ import NewsPage from './pages/news/';
 import ContactPage from './pages/contact/';
 import Footer from './components/footer/index';
 import Link from '@material-ui/core/Link';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import { createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
