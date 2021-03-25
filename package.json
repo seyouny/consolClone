@@ -1,7 +1,7 @@
 {
   "name": "consolusa",
   "version": "1.0.0",
-  "homepage": "https://seyouny.github.io/",
+  "homepage": ".",
   "description": "",
   "main": "server.js",
   "scripts": {
