@@ -18,8 +18,13 @@ app.get('*', (req, res) => {
 // app.get("/", (req, res) => {
 //   res.sendFile(path.join(__dirname, "./client/public", "index.html"));
 // });
-
-// start express server on port 5000
-app.listen(5000, () => {
-  console.log("server started on port 5000");
+// var port = process.env.PORT || 8080;
+// app.listen(port,function() {
+//   console.log("app running on port 8080"); });
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
+// start express server on port 5000
+// app.listen(5000, () => {
+//   console.log("server started on port 5000");
+// });
